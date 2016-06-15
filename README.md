@@ -125,6 +125,6 @@ Perfect! Now your view controller is in the initial view controller. You'll see 
 
 ![Grey arrow](.images/xcode12.png)
 
-And that's it for this lesson! You can build and run your application to see it in the simulator. If you want, try adding more view components to your graphical interface and see what happens! You can also try changing some of the attributes for the label and button, and see how that affects them, too.
+And that's it for this lesson! You can build and run your application to see it in the simulator. It's good to get into the habit of frequently building and running your app to get a feel for how it's working (and catching compiler errors early, before they start to pile up). As your application becomes more complex, it'll be easy to track down bugs if you test out your application even after minor changes. Try making some adjustments to your label (perhaps by changing the text or the background color), then run the app and test it out. Then try making some changes to the button, and test your app out again. Get used to this code-build-run cycle, because you'll be doing it often!
 
 <a href='https://learn.co/lessons/InterfaceBuilderConfig' data-visibility='hidden'>View this lesson on Learn.co</a>
