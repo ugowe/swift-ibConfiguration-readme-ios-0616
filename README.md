@@ -9,21 +9,12 @@
 * Drag & drop a **View Controller** object onto the canvas.
 * Hide and Show the Document Outline to view a breakdown of the View Controller Scene.
 * Explain that a View is provided along with every **View Controller Scene**.
-* Explain that a **UIView** represents the rectangular area on the screen which manages all of the content that is placed within it. It is the main way the application interacts with the user.
-* Drag & drop a **Label** from the Object library onto the View.
+* Explain that a **UIView** represents the rectangular area on the screen which manages all of the content that is placed within it.
+* Drag & drop a **Label** and a **Button** from the Object library onto the View.
 * Drag & drop a **Button** from the Object library onto the View.
-* Explain that the Attributes inspector is where they can edit attributes of the selected object. For example, changing the background color of their view.
-* Change the background color of the View by selecting the View from within their storyboard file, click the Attributes inspector and change the Background color from the drop down menu.
+* Explain that the Attributes inspector is where they can edit attributes of the selected object.
+* Change the background color of the View.
 * Select their View Controller as being the "Initial View Controller" in the Attributes Inspector 
-
-## What the student can do at this point 
-
-* Has a general overview of Xcode and is able to create a new project.
-* Knows where to locate the testing file within Xcode.
-* Knows how to navigate to Interface Builder. 
-* Knows what a storyboard file is.
-* Has a brief overview of what the Object Library is.
-* Can drag a View Controller onto the canvas.
 
 ## View Objects
 
