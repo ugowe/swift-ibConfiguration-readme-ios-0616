@@ -30,11 +30,11 @@ The first thing you need to do is add a _view controller_ to the storyboard. As 
 
 Do you remember where the _object library_ is? It's the pane at the bottom of the right-hand sidebar that contains a bunch of yellow icons. It looks like this:
 
-![Object Library](.images/xcode01.png)
+![Object Library](http://i.imgur.com/UisbInR.png)
 
 The object library contains all the different view objects—controllers, buttons, icons, and so forth—that can appear in your application. The top icon should be marked **View Controller**. That's what you want to add to your storyboard, so go ahead and drag that onto your canvas.
 
-![Drag a new view controller onto the canvas](.images/xcode02.png)
+![Drag a new view controller onto the canvas](http://i.imgur.com/4Er4Kn4.png)
 
 You've just added a new view controller to your storyboard! This view controller will be responsible for managing the initial view of your application—everything the user sees when they first load your application.
 
@@ -42,7 +42,7 @@ You've just added a new view controller to your storyboard! This view controller
 
 Notice that pane immediately to the left of Interface Builder's canvas, and to the right of the file listing? That's the _document outline_. When you first opened `Main.storyboard`, it was empty, and simply said **No Scenes**. Notice anything different? You should! Now that you have added a view controller, you'll see **View Controller Scene** in the document outline. There are _disclosure triangles_ next to that entry that show you all the objects associated with that scene.
 
-![Document Outline](.images/xcode03.png)
+![Document Outline](http://i.imgur.com/16QsMjU.png)
 
 The first one is labeled **View Controller**. That's the object you just added to your storyboard by dragging it from the object library to the canvas. Underneath that View Controller entry is one called **View**. And that's what we'll talk about next.
 
@@ -62,11 +62,11 @@ You've probably already guessed that a _label_ is a piece of text that you can d
 
 Let's add a label to your application. First, find a label in the object library. Instead of scrolling through the list to find a label, you can search for it by entering **label** in the **Filter** field.
 
-![Label](.images/xcode04.png)
+![Label](http://i.imgur.com/0ZQsPJt.png)
 
 Drag and drop a label onto the view controller you created earlier. Put it anywhere in the view you like. Make sure you drag it onto the _view_ and not just the canvas!
 
-![Label](.images/xcode05.png)
+![Label](http://i.imgur.com/yYLKN5F.png)
 
 You can double-click on the label to edit its text. Change it to anything you want. "My First iOS App" is a good label, don't you think?
 
@@ -78,7 +78,7 @@ Now that you've added a label, let's add a button.
 
 Like labels, buttons are also views. (Are you starting to see a theme here?) They are responsible for drawing themselves, as well as detecting presses from the user. Let's add a button to your view. Again, you can find buttons in the object library. Make your search easier by typing **button** in the **Filter** field. Drag a button onto your view. After you've added a button, your view should look something like this:
 
-![Your view](.images/xcode06.png)
+![Your view](http://i.imgur.com/MBtlbsB.png)
 
 Buttons are also a common part of graphical user interfaces, and are a standard component in Cocoa Touch. Their class is `UIButton`, so they are sometimes called `UIButton`s, too.
 
@@ -92,29 +92,29 @@ Let's change the background color of the main view to something other than white
 
 Once the view is selected, bring up the Attributes Inspector. The Attributes Inspector is the _fourth_ button from the left in the right-hand sidebar. It kind of looks like a downwards-facing arrow:
 
-![Attributes Inspector button](.images/xcode07.png)
+![Attributes Inspector button](http://i.imgur.com/n8V9bhi.png)
 
 Selecting that button will bring up the Attributes Inspector in Interface Builder's right-hand sidebar. Here you will see a number of options you can set:
 
-![Attributes Inspector](.images/xcode08.png)
+![Attributes Inspector](http://i.imgur.com/TG35R5W.png)
 
 These attributes let you customize the look and feel of your views. You won't have to worry about most of them for now. For this lesson, the important one is the one labeled **Background**. As its name suggests, that attribute controls the color of the view's background. Go ahead and click on it to change the color to your favorite color (unless your favorite color is white, in which case change it to your second favorite color). Blue is nice, isn't it? After changing the color, your view will look something like this:
 
-![Changing the background color](.images/xcode09.png)
+![Changing the background color](http://i.imgur.com/MXunUj6.png)
 
 ### Initial View Controller
 
 One more thing: Right now, if you try to run your app, you'll get a warning that you haven't sent an initial view controller. The _initial view controller_ is the view controller that determines what the user sees when they first launch your application. Every application has to have an initial view controller. It's easy to designate a particular view controller as the _initial view controller_. First, make sure your view controller is selected in the object listing. You'll have to select it there, as you can't select it directly in the canvas:
 
-![Select the view controller](.images/xcode10.png)
+![Select the view controller](http://i.imgur.com/Rw5K8ux.png)
 
 Once you've selected the view controller in the object listing, bring up its Attribute Inspector. Do you see an option marked **Is Initial View Controller** in the second section in the Attribute Inspector? Check that box to mark your view controller as the initial view controller.
 
-![Is Initial View Controller](.images/xcode11.png)
+![Is Initial View Controller](http://i.imgur.com/Ne8wK1H.png)
 
 Perfect! Now your view controller is in the initial view controller. You'll see that there is a grey arrow pointing into it to let you know that it is the starting point of your application.
 
-![Grey arrow](.images/xcode12.png)
+![Grey arrow](http://i.imgur.com/F5kKfL9.png)
 
 And that's it for this lesson! You can build and run your application to see it in the simulator. It's good to get into the habit of frequently building and running your app to get a feel for how it's working (and catching compiler errors early, before they start to pile up). As your application becomes more complex, it'll be easy to track down bugs if you test out your application even after minor changes. Try making some adjustments to your label (perhaps by changing the text or the background color), then run the app and test it out. Then try making some changes to the button, and test your app out again. Get used to this code-build-run cycle, because you'll be doing it often!
 
