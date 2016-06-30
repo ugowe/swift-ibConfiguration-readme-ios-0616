@@ -1,9 +1,9 @@
 # Interface Builder: View Objects
 
-![Drawing](https://images-na.ssl-images-amazon.com/images/I/51Rmbpdgh3L._UX250_.gif)
-> Sometimes the questions are complicated and the answers are simple.
+![Drawing](http://i.imgur.com/N0K6XAb.jpg?1)
+> Sometimes the questions are complicated and the answers are simple. -[Dr. Seuss](https://en.wikipedia.org/wiki/Dr._Seuss)
 
-## Learning Objectives - The student should be able to...
+## Learning Objectives
 
 * Locate the Object Library in Xcode.
 * Drag & drop a **View Controller** object onto the canvas.
